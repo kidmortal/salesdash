@@ -1,0 +1,64 @@
+.infoCardContainer {
+  width: 100%;
+  height: 100%;
+  max-width: 15rem;
+  max-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(150deg, #764af1, #9772fb);
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  &.purleBackground {
+    background-image: linear-gradient(150deg, #764af1, #9772fb);
+  }
+  &.orangeBackgrund {
+    background-image: linear-gradient(150deg, #f17e12, #ff9f43);
+  }
+  &.blueBackground {
+    background-image: linear-gradient(150deg, #0b6d94, #0aa1dd);
+  }
+  &.greenBackground {
+    background-image: linear-gradient(150deg, #36ae7c, #ccf3ee);
+  }
+  &.yellowbackground {
+    background-image: linear-gradient(150deg, #f9d923, #efd345);
+  }
+}
+
+.infoCardCenter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.contentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+}

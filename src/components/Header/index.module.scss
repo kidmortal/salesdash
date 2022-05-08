@@ -1,0 +1,45 @@
+.headerContainer {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3d8eba;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+
+.importarPedidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  gap: 0.5rem;
+}
+
+.syncButton {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.smallText {
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
